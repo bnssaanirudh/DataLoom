@@ -10,7 +10,6 @@ DataLoom integrates Retrieval-Augmented Generation (RAG) to power an intelligent
 Before you begin, make sure you have the following ready:
 
 - **MongoDB Atlas URI**: Setup your account if you don't already have one ([Create Account](https://www.mongodb.com/docs/guides/atlas/account/))
-    
 - **OpenAI API Key** (https://platform.openai.com/api-keys)
 
 
@@ -36,7 +35,6 @@ Once you have updated the above values, go ahead and click deploy to deploy the 
 
 #### Step 4: Upload PDF files to create chunks
 Head to the `Train` tab and upload a PDF document. 
-
 If everything is deployed correctly, your document should start uploading to your cluster under the `chatter > training_data` collection.
 
 Your data should now start appearing as below in the collection.
@@ -81,7 +79,6 @@ Create a search index as below.
 
 ![image](https://github.com/mongodb-partners/MongoDB-RAG-Vercel/assets/114057324/3a4b863e-cea3-4d89-a6f5-24a4ee44cfd4)
 
-
 This architecture depicts a Retrieval-Augmented Generation (RAG) chatbot system built with LangChain, OpenAI, and MongoDB Atlas Vector Search. Let's break down its key players:
 
 - **PDF File**: This serves as the knowledge base, containing the information the chatbot draws from to answer questions. The RAG system extracts and processes this data to fuel the chatbot's responses.
@@ -107,7 +104,6 @@ The below components are used to build up the bot, which can retrieve the requir
             streaming: true,
             callbacks: [handlers],
         });
-
 
 #### Vector Store
 
