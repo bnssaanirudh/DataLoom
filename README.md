@@ -3,7 +3,6 @@
 DataLoom integrates Retrieval-Augmented Generation (RAG) to power an intelligent, data-aware chatbot experience. Built using LangChain and MongoDB Atlas Vector Search, this system allows users to query large-scale global datasets through natural language. LangChain orchestrates query understanding and response generation, while MongoDB Atlas serves as the vector-enabled knowledge base — enabling contextual search, fast retrieval, and semantically rich answers. DataLoom brings AI-powered insights to the forefront of open data exploration.
 
 
-
 ## Setup 
 ### Prerequisites
 
