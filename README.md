@@ -14,7 +14,6 @@ Before you begin, make sure you have the following ready:
 - **OpenAI API Key** (https://platform.openai.com/api-keys)
 
 
-
 ## Steps to Deploy 
 Follow the below-mentioned steps to deploy the app on Vercel.
 
@@ -42,7 +41,6 @@ If everything is deployed correctly, your document should start uploading to you
 Your data should now start appearing as below in the collection.
 
 ![image](https://github.com/utsavMongoDB/MongoDB-RAG-NextJS/assets/114057324/316af753-8f7b-492f-b51a-c23c109a3fac)
-
 
 
 #### Step 5: Create Vector Index on Atlas
